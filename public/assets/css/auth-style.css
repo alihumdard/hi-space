@@ -1,0 +1,17 @@
+  .input-group-icon {
+      position: relative;
+    }
+
+    .input-group-icon i {
+      position: absolute;
+      left: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: #666;
+    }
+
+    .input-group-icon input,
+    .input-group-icon select {
+      padding-left: 35px !important;
+    }
