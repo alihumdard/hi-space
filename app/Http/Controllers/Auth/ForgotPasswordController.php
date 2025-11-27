@@ -35,7 +35,7 @@ class ForgotPasswordController extends Controller
 
     public function showOtpForm(Request $request)
     {
-        return view('pages.auth.otp', ['email' => $request->email]);
+        return view('pages.auth.password.otp', ['email' => $request->email]);
     }
 
     public function verifyOtp(Request $request)

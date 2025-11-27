@@ -129,4 +129,10 @@ class AuthController extends Controller
         $request->session()->regenerateToken();
         return redirect('/login');
     }
+
+        public function showOtpForm(Request $request)
+    {
+        return view('pages.auth.otp', ['email' => $request->email]);
+    }
+
 };
